@@ -16,7 +16,7 @@ By adjusting this parameter, your data split into smaller size sections. This pa
 
 ### example:
 ```python
-import extendedSimilarities as sims
+import extended_similarities as sims
 import numpy as np
 
 X= np.array([[-0.07,  0.31, -0.05],
