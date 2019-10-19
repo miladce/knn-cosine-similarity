@@ -11,4 +11,4 @@ input data</br></br>
 **k**:
 Number of neighbors to use.</br></br>
 **n_epoch**:
-By adjusting this parameter, your data split into smaller size sections. This parameter is useful in large datasets that you will get 'MemoryError'.
+By adjusting this parameter, your data split into smaller size sections. This parameter is useful in large datasets that you will get `MemoryError`.
