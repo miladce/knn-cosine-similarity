@@ -57,3 +57,14 @@ X= np.array([[-0.07,  0.31, -0.05],
 cos_knn = sims.DistributedCosineKnn(k=3)
 indices, distances = cos_knn.fit(input_data=X, n_epoch=7)
 ```
+
+
+
+
+</br></br></br></br>
+
+##
+for installing project dependencies via pip:
+```
+pip install /path/to/reqs.txt
+```
