@@ -54,6 +54,6 @@ X= np.array([[-0.07,  0.31, -0.05],
        [ 0.04,  0.32, -0.02],
        [ 0.05,  0.33, -0.02]])
 
-cos_knn = sims.distributed_cosine_knn(k=3)
+cos_knn = sims.DistributedCosineKnn(k=3)
 indices, distances = cos_knn.fit(input_data=X, n_epoch=7)
 ```
