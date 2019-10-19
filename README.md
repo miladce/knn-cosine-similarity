@@ -1,5 +1,5 @@
 # distributed knn with cosine similarity (distance)
-Cosine similarity is not a distance metric as it violates triangle inequality, and doesn’t work on negative data. and also, Scikit-learn's distance metrics doesn't have cosine distance.
+Cosine similarity is not a distance metric as it violates triangle inequality, and doesn’t work on negative data. and also, Scikit-learn's distance metrics doesn't have cosine distance. However, cosine similarity is fast, simple, and gets slightly better accuracy than other distance metrics on some datasets.
 
 in this repository, (distributed) KNN algorithm implemented with cosine similarity.
 and in this version, only the neighbors of each point and distance between them are specified.
