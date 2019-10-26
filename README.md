@@ -10,7 +10,7 @@ Parameters:	</br></br>
 Number of neighbors to use.</br></br>
 **input_data**:
 input data</br></br>
-**n_epoch**:
+**n_bucket**:
 By adjusting this parameter, your data split into smaller size sections. This parameter is useful in large datasets that you will get `MemoryError`.
 
 
@@ -55,7 +55,7 @@ X= np.array([[-0.07,  0.31, -0.05],
        [ 0.05,  0.33, -0.02]])
 
 cos_knn = sims.DistributedCosineKnn(k=3)
-indices, distances = cos_knn.fit(input_data=X, n_epoch=7)
+indices, distances = cos_knn.fit(input_data=X, n_bucket=7)
 ```
 
 </br></br>
